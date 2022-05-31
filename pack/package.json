@@ -1,0 +1,15 @@
+{
+	"name": "ftc-essentials-pack",
+	"displayName": "FTC Essentials Pack",
+	"description": "Extension pack with everything you need to use vscode with First Tech Challenge",
+	"version": "0.0.1",
+	"engines": {
+		"vscode": "^1.67.0"
+	},
+	"categories": [
+		"Extension Packs"
+	],
+	"extensionPack": [
+		"vscjava.vscode-gradle"
+	]
+}

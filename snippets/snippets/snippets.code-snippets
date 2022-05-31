@@ -1,0 +1,24 @@
+{
+	"Linear Op Mode": {
+		"prefix": ["class"],
+		"description": "Boilerplate used to create a new Linear Op Mode",
+		"body": [
+			"import com.qualcomm.robotcore.eventloop.opmode.Autonomous;",
+			"import com.qualcomm.robotcore.eventloop.opmode.TeleOp;",
+			"import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;",
+			"",
+			"@${1|Autonomous,TeleOp|}(name = \"${1:TM_FILENAME_BASE}\", group = \"${2:group name}\")",
+			"public class ${TM_FILENAME_BASE} extends LinearOpMode {",
+			"",
+			"@Override",
+			"public void runOpMode() throws InterruptedException {",
+			"$LINE_COMMENT Initialization Code Here",
+			"{$3}",
+			"waitForStart();",
+			"$LINE_COMMENT",
+			"{$0}",
+			"}",
+			"}"
+		]
+	}
+}
